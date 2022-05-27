@@ -1,0 +1,25 @@
+#panel,#btns,#tiers{
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#mainDtl {
+  padding: 5px;
+  text-align: left;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#mainHead,#tierHead,#flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #c3c3c3;
+  border: solid 2px #e5eecc;
+}
+
+#panel {
+  padding: 25px;
+  display: none;
+}

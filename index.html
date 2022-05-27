@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="simplestyle.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="s3.js"></script>
+</head>
+<body>
+
+<div id="mainHead">
+	<img src="s3.png" width="50" height="50" id="s3image" />
+	<b> Amazon S3 - Simple Storage Service</b>
+</div>
+
+<div id="mainDtl">
+Amazon Simple Storage Service (Amazon S3) is an object storage service.<br/>
+It provides highly scalable storage and ensures data availability, security, and performance. <br/>
+Users can store and protect any amount of data with fine-tuned access controls to meet specific business needs.<br/>
+S3 offers cost-effective storage classes and easy-to-use management features.<br/><br/>
+
+<b>Use Cases</b><br/>
+Storage for cloud native applications<br/>
+Archive data at the lowest cost<br/>
+Back up and restore for critical data<br/>
+Build a data lake to run big data analytics, artificial intelligence (AI) / ML applications<br/>
+</div>
+ 
+<div id="flip"><b>Click to know some interesting facts about S3!!</b></div>
+<div id="panel">
+	 1. S3 object tags : to associate 10 key-value pairs to each object.<br/>
+		2. S3 Versioning : to preserve, retrieve, and restore every version of an object.<br/>
+		3. S3 Replication : to replicate objects to one or more destination buckets into the same or different AWS Regions.<br/>
+		4. S3 Object Lock : to enforce write-once-read-many (WORM) policies.<br/>
+</div>
+
+<div id="tierHead">
+	<b> Amazon S3 Storage Classes </b>
+</div>
+
+ <div class="divs" id="tiers" > 
+        <div>
+        <b>S3 Standard for frequently accessed data</b><br/>
+			Resilient against events that impact an entire Availability Zone <br/>
+			Designed for 99.99% availability <br/>
+			S3 Lifecycle management for automatic migration of objects to other S3 Storage Classes  
+        </div>
+        <div>S3 Intelligent-Tiering for automatic cost savings for data with unknown or changing access patterns</div>
+        <div>S3 Standard-Infrequent Access (S3 Standard-IA) for less frequently accessed data with replication in multiple AZs</div>
+        <div>S3 One Zone-Infrequent Access (S3 One Zone-IA) for less frequently accessed data with data present in single zone</div>
+        <div>S3 Glacier Instant Retrieval for archive data that needs immediate access</div>
+        <div>S3 Glacier Flexible Retrieval (formerly S3 Glacier) for rarely accessed long-term data that does not require immediate access</div>
+        <div>Amazon S3 Glacier Deep Archive (S3 Glacier Deep Archive) for long-term archive and digital preservation with retrieval in hours at the lowest cost storage in the cloud</div>
+    </div>
+    
+<div id="btns">
+<button id="prev">Previous</button>
+<button id="next">Next</button>
+</div>
+  
+</body>
+</html>
